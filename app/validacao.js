@@ -9,7 +9,6 @@ function verificaSeOChutePossuiUmValorValido(chute) {
     elementoChute.innerHTML += `<div>Valor inválido: Fale um número entre ${menorValor} e ${maiorValor}.</div>`;
   }
 
-
   if (numero === numeroSecreto) {
     document.body.innerHTML = `
     <h2>Você acertou!</h2>
@@ -28,3 +27,5 @@ function chuteForInvalido(numero) {
 function numeroForMaiorOuMenorQueOValorPermitido(numero) {
   return numero > maiorValor || numero < menorValor;
 }
+
+
